@@ -1,0 +1,22 @@
+{
+    "name": "my-example-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "NODE_ENV=production node src/index.js",
+        "dev": "nodemon src/index.js",
+        "create": "nodemon src/create.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1",
+        "prettier": "^3.0.1"
+    }
+}
